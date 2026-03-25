@@ -71,4 +71,4 @@ secrets/
 *.html
 
 # Permitir PDF final explícito si se desea versionar luego:
-#!/entrega-final/informe/informe-final.pdf
+!/entrega-final/informe/informe-final.pdf
