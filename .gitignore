@@ -1,0 +1,74 @@
+# =============================
+# REDES III - GNS3 / EVE-NG
+# =============================
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.bak
+*.log
+.vscode/
+.idea/
+
+# --- Python / tooling (si se usan scripts) ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- Node (si se usan utilidades) ---
+node_modules/
+
+# --- Artefactos pesados de laboratorio ---
+*.qcow2
+*.vmdk
+*.vdi
+*.img
+*.iso
+*.ova
+*.ovf
+
+# --- Snapshots / runtime de emuladores ---
+snapshots/
+runtime/
+tmp/
+cache/
+
+# --- Capturas de red (guardar solo evidencias seleccionadas) ---
+*.pcap
+*.pcapng
+*.cap
+
+# Permitir subir capturas puntuales versionadas en carpeta de evidencia curada
+!**/evidencias/**/README.md
+
+# --- Logs masivos / eventos crudos ---
+*.eve.json
+*.fast.log
+*.stats.log
+*.alert
+*.u2
+
+# --- Proyectos GNS3/EVE-NG temporales/exportables ---
+*.gns3.backup
+*.unl.backup
+*.zip
+
+# --- Secrets / credenciales ---
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+
+# --- Reportes generados ---
+*.pdf
+*.html
+
+# Permitir PDF final explícito si se desea versionar luego:
+#!/entrega-final/informe/informe-final.pdf
